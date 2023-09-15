@@ -1,0 +1,1 @@
+student = {"name" : "Yohan", "academic_year" : 2023}
