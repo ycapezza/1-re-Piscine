@@ -1,0 +1,2 @@
+string = "Bonjour"
+print(string)
