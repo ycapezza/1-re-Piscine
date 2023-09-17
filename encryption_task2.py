@@ -9,6 +9,8 @@ for i in range(0, len(message2)):
         iCLE = 0
     letterCLE = cle[iCLE]
     res = alphabet.rfind(letter2) + alphabet.rfind(letterCLE)
+    if res > 25:
+        res = res - 26
     code += alphabet[res]
 #    print(res)
     res = 0
